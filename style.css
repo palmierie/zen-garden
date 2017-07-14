@@ -1,0 +1,131 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Orbitron' , sans-serif;
+	}
+body { 
+	background-image: url(space.jpg);
+	color: white;	
+}
+h1{
+	font-size: 3em;
+	border: 5px solid lightblue;
+	display: inline-block;
+	padding: 15px;
+}
+h2{
+	border: 5px solid lightblue;
+	clear:both;
+	display: inline-block;
+	padding: 15px;
+	position: absolute;
+	margin-top: 123px;
+	margin-left:-5px;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	width: 80%;
+	margin: 0 auto; 
+	position: relative;
+	}
+
+.summary{
+	border: 5px solid lightblue;
+	padding: 15px;
+	margin-top: 14px;
+	width: 619px;
+	float:right;
+}
+.preamble{
+	border: 5px solid lightblue;
+	padding: 15px;
+	margin-top: -5px;
+	width: 446px;
+	float:left;
+	clear:both;	
+}
+.main-supporting{
+	border: 5px solid lightblue;
+	padding: 15px;
+	margin-top: -5px;
+	width: 619px;
+	float:right;
+	clear:both;	
+	border-bottom: 0 solid white;
+}
+.participation{
+	position: absolute;
+	width: 619px;
+	right: 320px;
+	border: 5px solid lightblue;
+	padding: 15px;
+	background-color: white;
+	z-index: 2;
+	color: black;
+}
+.participation a{
+	color:lightslategrey;
+}
+.benefits{
+	position: absolute;
+	width:619px;
+	top:960px;
+	right: 0;
+	border: 5px solid lightblue;
+	border-top: 0 solid white;
+	padding: 365px 15px 15px 15px;
+	z-index: 1;
+}
+.requirements{
+	position: absolute; 
+	top: 1500px;
+}
+.sidebar{
+	border: 5px solid lightblue;
+	padding: 15px;
+	width: 446px;
+	float:left;
+	position: absolute;
+	top:1492px;
+	right:654px;
+}
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+.sidebar li {
+	list-style-type: none;
+	}
+a{
+	color:white;
+}
